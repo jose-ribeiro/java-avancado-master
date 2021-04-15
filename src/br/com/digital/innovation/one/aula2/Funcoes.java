@@ -8,5 +8,9 @@ public class Funcoes {
         Function<String,Integer> converterStringParaInteiroECalcularODobro = string -> Integer.valueOf(string) * 2;
         System.out.println(retornarNomeAoContrario.apply("joao"));
         System.out.println(converterStringParaInteiroECalcularODobro.apply("20"));
+        
+        
+        
+        
     }
 }

@@ -18,7 +18,7 @@ class GeradorPDF extends Thread {
     @Override
     public void run() {
         try {
-            System.out.println("Iniciar geraÃ§Ã£o de PDF");
+            System.out.println("Iniciar geração0 de PDF");
             Thread.sleep(5000);
         } catch (InterruptedException e) {
             e.printStackTrace();

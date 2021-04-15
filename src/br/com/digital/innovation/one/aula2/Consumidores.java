@@ -13,5 +13,6 @@ public class Consumidores {
         Consumer<String> imprimirUmaFrase = System.out::println;
         Consumer<String> imprimirUmaFrase2 = frase -> System.out.println(frase);
         imprimirUmaFrase.accept("Hello World");
+        imprimirUmaFrase2.accept("Hello World");
     }
 }
