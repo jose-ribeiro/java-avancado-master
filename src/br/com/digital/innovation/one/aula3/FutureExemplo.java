@@ -24,6 +24,7 @@ public class FutureExemplo {
                 )
                 .collect(Collectors.toList()));
 
+
         while (true){
             int numeroDeAtividadesNaoFinalizadas = 0;
             for (Future<?> futuro : futuros) {
